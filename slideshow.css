@@ -1,0 +1,36 @@
+.slideshow{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(20, 15, 2);
+}
+.image{
+    width: 100vw;
+    height: 300px;
+    margin: auto;
+    background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_MarvelousMrsMaiselS4NewEpsWeeklyV2/9956cebc-4725-4a18-8349-deead5fb09d0._UR3000,600_SX1500_FMjpg_.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slide 12s ease-in-out infinite;
+    cursor: pointer;
+}
+@keyframes slide {
+    0%{
+        background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_BestsellerS1_Launch/97148869-f2c4-45d3-ae74-427ae663d8c6._UR3000,600_SX1500_FMjpg_.jpeg");
+    }
+    25%{
+        background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_ServiceCampaignSeeWhereITTakesYou/9f078419-ee66-45f6-b1ba-7e66daabdab0._UR3000,600_SX1500_FMjpg_.jpeg");
+    }
+    50%{
+        background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_MarvelousMrsMaiselS4NewEpsWeeklyV2/9956cebc-4725-4a18-8349-deead5fb09d0._UR3000,600_SX1500_FMjpg_.jpeg");
+    }
+    75%{
+        background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_CROW_UN_JohnWick3_LP/b535f621-1c6a-4729-97e5-9f6f52bb13c0._UR3000,600_SX1500_FMjpg_.jpeg");
+    }
+    100%{
+        background-image: url("https://m.media-amazon.com/images/S/sonata-images-prod/PV_IN_MarvelousMrsMaiselS4NewEpsWeeklyV2/9956cebc-4725-4a18-8349-deead5fb09d0._UR3000,600_SX1500_FMjpg_.jpeg");
+    }
+}
